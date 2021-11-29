@@ -1,38 +1,132 @@
-.App {
+/* Menu Side Bar */
+.sideBar {
+  position: fixed;
+  width: 250px;
+  background-color: #111418;
+  height: 100vh;
+  color: #fff; 
+  text-align: center;
+  overflow-x:hidden ;
+  overflow-y: auto;
+  padding-top: 40px;
+}
+
+.sideBar img{
+  width: 160px;
+  border-radius: 50%;
+  border: 3px solid rgba(255, 255, 255, 0.219);
+}
+
+.main {
+  margin-left: 250px;
+}
+
+.banner {
+  background: url('img/banner.jpg') rgba(0, 0, 0, 0.63);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;  
+  height: 100vh;
+  background-blend-mode: darken;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Fredoka One;
+}
+
+.banner-details {
+  color: #fff;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.banner-details h1, h2{
+  margin: 0 ;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.banner-details h2 {
+  padding-bottom: 10px;
+  font-size: 32px;
+}
+.banner-details h1 {
+  font-size: 50px;
+}
+.banner-details p {
+  font-size: 22px;
+  font-weight: 300;
+  color: #ebebebe7;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.contact-me {
+    padding-top: 10px;
+    height: 100vh;
+}
+.contact-header {
+  padding: 50px 0 ;
+  text-align: center;
+  font-family: Fredoka one;
+}
+.contact-header h1 {
+  font-size:  calc(20px + 8vw);
+  text-transform: uppercase;
+  color: #1114181f;
+
+}
+
+.contact-header h2 {
+  margin-top: -30px;
+  position: relative;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.contact-header h2::after {
+  content: '';
+  width: 20%;
+  height: 3px;
+  display: block;
+  position: absolute;
+  background-color: #2fc997;
+  bottom: -7px;
+}
+#contact-form {
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.contact-me label {
+  color: rgb(119, 115, 115) !important;
+}
+.contact-me input:focus, textarea:focus {
+  box-shadow: 0 0 0 0.25rem #00ff655c !important;
+  border-color: transparent !important;
+}
+
+.sideBar ul {
+  padding: 0;
+  margin-top: 25px;
+}
+.sideBar li {
+  list-style: none;
+  margin-top: 10px;
+
+}
+.sideBar li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all .2s;
+}
+
+.sideBar li a:hover {
+  color: #2fc997;
+}
+
+@media only screen and (max-width: 768px) {
+  .sideBar {
+    display: none;
   }
-  to {
-    transform: rotate(360deg);
+  .main {
+    margin-left: 0;
   }
 }
