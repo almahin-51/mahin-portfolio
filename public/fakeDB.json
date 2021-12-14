@@ -1,0 +1,146 @@
+[
+    {
+        "id": "1",
+        "name": "KEYMOTO",
+        "des": "This is a Motor bike related web site. There are different types of motorbikes available in the market.",
+        "full": "./img/key.png",
+        "img": {
+            "k_1": "./img/1.png",
+            "k_2": "./img/2.png",
+            "k_3": "./img/3.png",
+            "k_4": "./img/4.png",
+            "k_5": "./img/5.png",
+            "k_6": "./img/6.png",
+            "k_7": "./img/7.png",
+            "k_8": "./img/8.png",
+            "k_9": "./img/9.png",
+            "k_10": "./img/10.png",
+            "k_11": "./img/11.png",
+            "k_12": "./img/12.png",
+            "k_13": "./img/13.png",
+            "k_14": "./img/14.png",
+            "k_15": "./img/15.png",
+            "k_16": "./img/16.png",
+            "k_17": "./img/17.png",
+            "k_18": "./img/18.png",
+            "k_19": "./img/19.png",
+            "k_20": "./img/20.png",
+            "k_21": "./img/21.png",
+            "k_22": "./img/22.png",
+            "k_23": "./img/23.png",
+            "k_24": "./img/24.png",
+            "k_25": "./img/25.png"
+        },
+        "info": "M This is a motor bike related website. There are different types of motorbikes available in the market. It can be varied in different ways from different points of view. But have we ever wondered how many types of motorcycles can actually be? Yes, that's a thought. In fact, all the bikes have been divided into several parts in terms of performance, speed, comfort, etc. Today, let's get to know those classifications.",
+        "features": {
+            "one": "Niche product-related website includes a user dashboard to view their orders",
+            "tow": "Users can rate the site, and the review will be displayed in the slider on the home page",
+            "there": "We have an easy-to-use website where you can order your favorite bike. Delivery service is available.",
+            "four": "Admin can add or remove products and manage all orders.",
+            "five": "KEYMOTO is a website for selling wonderful bikes."
+        },
+        "technologies": {
+            "react": "React Js",
+            "router": "React-Router",
+            "bootstrap": "Bootstrap 5",
+            "css": "CSS",
+            "alert": "Sweetaleart",
+            "animate": "Swiper JS",
+            "node": "Node.JS",
+            "db": "MongoDB",
+            "express": "Express.JS",
+            "server": "Heroku",
+            "auth": "Firebase"
+        },
+        "date": "10 November, 2021",
+        "link": {
+            "live": "https://key-motors.web.app",
+            "client": "https://github.com/almahin-51/keymoto-client",
+            "server": "https://github.com/almahin-51/keymoto-server"
+        }
+    },
+    {
+        "id": "2",
+        "name": "UNI-TRAVEL",
+        "des": "UNI-TRAVEL Tours & Travels is one of the most popular Tour & Travel Agency in Bangladesh.",
+        "full": "./img/uni.png",
+        "img": {
+            "k_1": "./uni/1.png",
+            "k_2": "./uni/2.png",
+            "k_3": "./uni/3.png",
+            "k_4": "./uni/4.png",
+            "k_5": "./uni/5.png",
+            "k_6": "./uni/6.png",
+            "k_7": "./uni/7.png"
+        },
+        "info": "UNI-TRAVEL Tours & Travels is one of the most popular tour & travel Agency in Bangladesh which has been providing tourism service with a good reputation at the same place since 2016. The skills & Honesty of its Tours in the travels services is unrivaled. Tours the skilled & trustworthy organization for Visa Process , Package Tours , Air Tickets , Hotel Booking in various countries around the world.",
+        "features": {
+            "one": "Niche product-related website includes a user dashboard to view their orders",
+            "tow": "Users can rate the site, and the review will be displayed in the slider on the home page",
+            "there": "We have an easy-to-use website where you can order your favorite bike. Delivery service is available.",
+            "four": "Admin can add or remove products and manage all orders.",
+            "five": "KEYMOTO is a website for selling wonderful bikes."
+        },
+        "technologies": {
+            "react": "React Js",
+            "router": "React-Router",
+            "bootstrap": "Bootstrap 5",
+            "css": "CSS",
+            "alert": "Sweetaleart",
+            "animate": "Swiper JS",
+            "node": "Node.JS",
+            "db": "MongoDB",
+            "express": "Express.JS",
+            "server": "Heroku",
+            "auth": "Firebase"
+        },
+        "date": "10 November, 2021",
+        "link": {
+            "live": "https://key-motors.web.app",
+            "client": "https://github.com/almahin-51/keymoto-client",
+            "server": "https://github.com/almahin-51/keymoto-server"
+        }
+    },
+    {
+        "id": "3",
+        "name": "MEDICAL CARE",
+        "des": "Medical care is what physicians and other clinicians do every day with you in offices, labs, surgery centers, and hospitals.",
+        "full": "./img/medi.png",
+        "img": {
+            "k-1": "https://i.ibb.co/mCv4LYK/1.png",
+            "k-2": "https://i.ibb.co/BCn5hRS/2.png",
+            "k-3": "https://i.ibb.co/611JPrn/3.png",
+            "k-4": "https://i.ibb.co/TYmMRCy/4.png",
+            "k-5": "https://i.ibb.co/GxYsnv2/5.png",
+            "k-6": "https://i.ibb.co/jypn0pL/6.png",
+            "k-7": "https://i.ibb.co/XjkdySJ/7.png"
+        },
+        "info": "Medical care is what physicians and other clinicians do every day with you in offices, labs, surgery centers, and hospitals. Titrating blood pressure meds. Checking blood sugar. Adding this medication on and stopping that medication.",
+        "features": {
+            "one": "Niche product-related website includes a user dashboard to view their orders",
+            "tow": "Users can rate the site, and the review will be displayed in the slider on the home page",
+            "there": "We have an easy-to-use website where you can order your favorite bike. Delivery service is available.",
+            "four": "Admin can add or remove products and manage all orders.",
+            "five": "KEYMOTO is a website for selling wonderful bikes."
+        },
+        "technologies": {
+            "react": "React Js",
+            "router": "React-Router",
+            "bootstrap": "Bootstrap 5",
+            "css": "CSS",
+            "alert": "Sweetaleart",
+            "animate": "Swiper JS",
+            "node": "Node.JS",
+            "db": "MongoDB",
+            "express": "Express.JS",
+            "server": "Heroku",
+            "auth": "Firebase"
+        },
+        "date": "10 November, 2021",
+        "link": {
+            "live": "https://key-motors.web.app",
+            "client": "https://github.com/almahin-51/keymoto-client",
+            "server": "https://github.com/almahin-51/keymoto-server"
+        }
+    }
+]

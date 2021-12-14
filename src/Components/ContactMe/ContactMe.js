@@ -17,7 +17,7 @@ const ContactMe = () => {
     }
     return (
         <div id="contact" className="contact-me container-sm mb-5">
-            <div className="contact-header">
+            <div className="header-details">
                 <h1>Contact's</h1>
                 <h2>Get In Touch</h2>
             </div>
