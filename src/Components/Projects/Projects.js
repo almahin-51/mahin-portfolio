@@ -80,8 +80,9 @@ const Projects = () => {
               </Carousel>
             </Col>
             <Col md={4} xm={12}>
-              <h4>Project Info:</h4>
+              <h4 className="mt-2">Project Info:</h4>
               <p>{info}</p>
+              <h5></h5>
             </Col>
           </Row>
         </Modal.Body>
