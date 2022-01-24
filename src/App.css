@@ -28,10 +28,6 @@ p {
 
 /* About section  */
 
-.about-details h2{
-  
-}
-
 .about-details span {
   color: #20c997;
 }
@@ -130,9 +126,9 @@ p {
   max-width: 90% !important;
   max-height: 90% !important;
 }
-.modal-content{
+/* .modal-content{
   height: 100% !important;
-}
+} */
 .carousel-item, .carousel-inner {
   height: 100% !important; 
 }

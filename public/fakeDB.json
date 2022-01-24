@@ -96,9 +96,9 @@
         },
         "date": "10 November, 2021",
         "link": {
-            "live": "https://key-motors.web.app",
-            "client": "https://github.com/almahin-51/keymoto-client",
-            "server": "https://github.com/almahin-51/keymoto-server"
+            "live": "https://uni-travel-s.web.app/",
+            "client": "https://github.com/almahin-51/uni-travel-client",
+            "server": "https://github.com/almahin-51/uni-travel-server"
         }
     },
     {
@@ -107,13 +107,14 @@
         "des": "Medical care is what physicians and other clinicians do every day with you in offices, labs, surgery centers, and hospitals.",
         "full": "./img/medi.png",
         "img": {
-            "k-1": "https://i.ibb.co/mCv4LYK/1.png",
-            "k-2": "https://i.ibb.co/BCn5hRS/2.png",
-            "k-3": "https://i.ibb.co/611JPrn/3.png",
-            "k-4": "https://i.ibb.co/TYmMRCy/4.png",
-            "k-5": "https://i.ibb.co/GxYsnv2/5.png",
-            "k-6": "https://i.ibb.co/jypn0pL/6.png",
-            "k-7": "https://i.ibb.co/XjkdySJ/7.png"
+            "k-1": "./medi/1.png",
+            "k-2": "./medi/2.png",
+            "k-3": "./medi/3.png",
+            "k-4": "./medi/4.png",
+            "k-5": "./medi/5.png",
+            "k-6": "./medi/6.png",
+            "k-7": "./medi/7.png",
+            "k-8": "./medi/8.png"
         },
         "info": "Medical care is what physicians and other clinicians do every day with you in offices, labs, surgery centers, and hospitals. Titrating blood pressure meds. Checking blood sugar. Adding this medication on and stopping that medication.",
         "features": {

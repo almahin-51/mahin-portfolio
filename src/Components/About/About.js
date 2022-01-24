@@ -4,7 +4,7 @@ import { CountUp } from 'react-countup';
 
 const About = () => {
     return (
-        <div id="about" className="px-5">
+        <div id="about" className="px-4">
             <div className="header-details">
                 <h1>ABOUT ME</h1>
                 <h2>Know Me More</h2>
@@ -19,7 +19,7 @@ const About = () => {
                 </Col>
                 <Col lg={5} >
                     <div className="info">
-                        <ul>
+                        <ul className='p-0'>
                             <li><span>Name:</span> MD. AL Mohaiminul Islam Mahin</li>
                             <li><span>Email:</span> <a href="mailto:almohaiminul@gmail.com">almohaiminul1@gmail.com</a></li>
                             <li><span>Age:</span> 17</li>
