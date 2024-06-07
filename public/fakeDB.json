@@ -139,8 +139,8 @@
         },
         "date": "10 November, 2021",
         "link": {
-            "live": "https://key-motors.web.app",
-            "client": "https://github.com/almahin-51/keymoto-client",
+            "live": "https://medical-cares.web.app",
+            "client": "https://github.com/almahin-51/medi-care",
             "server": "https://github.com/almahin-51/keymoto-server"
         }
     }

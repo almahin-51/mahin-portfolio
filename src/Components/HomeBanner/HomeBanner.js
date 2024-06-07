@@ -20,7 +20,7 @@ const HomeBanner = () => {
                     /></h1>
                     <p className="mx-auto w-75">You can reach out to me if you need any help in making a website for you or your business.</p>
                     <a href="#contact"><button className="btn btn-outline-warning me-3" >Contact Me</button></a>
-                    <a target="_blank" href="https://drive.google.com/file/d/1sQKr6iQQuPgUfI61mC63l8GsDZFH0Lbg/view?usp=sharing"><button className="btn btn-warning">Resume</button></a>
+                    <a target="_blank" href="https://drive.google.com/file/d/1nd1r-d7m2zebUrRfnpALzq3-3ap_T_rR/view?usp=sharing"><button className="btn btn-warning">Resume</button></a>
                 </div>
             </div>
         </>

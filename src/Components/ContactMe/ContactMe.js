@@ -1,19 +1,21 @@
 import React from 'react';
-import { Form, Button, Row, Col } from 'react-bootstrap';
+import { Form, Row, Col } from 'react-bootstrap';
 import { useForm } from '@formspree/react';
 import swal from 'sweetalert';
 
 const ContactMe = () => {
     const [state, handleSubmit] = useForm("xbjwraye");
+    const form = document.getElementById("contact-form");
+
     if (state.succeeded) {
-        const form = document.getElementById("contact-form");
-        form.reset();
         swal({
-            title: "Good job!",
-            text: "You clicked the button!",
+            title: "Submitted!",
+            text: "Thanks for Contacting me, I will mail you back as soon as possible.",
             icon: "success",
-            button: null,
+            button: "Close"
         });
+
+        form.reset();
     }
     return (
         <div id="contact" className="contact-me container-sm mb-5">
@@ -21,7 +23,7 @@ const ContactMe = () => {
                 <h1>Contact's</h1>
                 <h2>Get In Touch</h2>
             </div>
-            <form id="contact-form container" onSubmit={handleSubmit}>
+            <form id="contact-form" onSubmit={handleSubmit}>
                 <Row md={2} xs={1} >
                     <Col>
                         <Form.Floating className="w-100 mb-3">
@@ -64,10 +66,10 @@ const ContactMe = () => {
                     <label htmlFor="message">Message</label>
                 </Form.Floating>
                 <div className="d-flex justify-content-center">
-                    <Button type="submit" className="btn text-center w-25 btn-warning">SUBMIT</Button>
+                    <button type="submit" disabled={state.submitting} className="btn text-center w-25 btn-warning">SUBMIT</button>
                 </div>
-            </form>
-        </div>
+            </form >
+        </div >
     );
 };
 
